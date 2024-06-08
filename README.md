@@ -1,6 +1,4 @@
-# Bobbit
-
-[![codecov](https://codecov.io/gh/pbui/bobbit/branch/bobbit-0.2.x/graph/badge.svg?token=86oI4k2IBZ)](https://codecov.io/gh/pbui/bobbit)
+# unicornbot (a fork of pbui/bobbit)
 
 **bobbit** is a simple and modular *asynchronous* IRC / Slack bot written in
 [Python].  The current version uses [asyncio] as its core networking and event
@@ -19,7 +17,7 @@ be in the directory specified by `config-dir` (default: `~/.config/bobbit`). An
 example config file looks like this:
 
 ```
-nick:       "bobbit"
+nick:       "unicornbot7"
 password:   <password>
 owners:
     - <owner>
@@ -43,12 +41,6 @@ The following modules also require configuration files (in `config-dir`):
   ```
   default:    <zipcode>
   ```
-
-### Slack
-
-TODO: Describe how to get Slack token.
-
-https://medium.com/@andrewarrow/how-to-get-slack-api-tokens-with-client-scope-e311856ebe9
 
 ## Execution
 
